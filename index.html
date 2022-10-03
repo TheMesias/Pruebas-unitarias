@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="formulario1">
+        <table style="text-align: left; margin-left: auto; margin-right: auto;">
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="a">Ingresa el valor de a:</label>
+                    </td>
+                    <td>
+                        <input name="a" required="required" step="0.000001" type="number" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="b">Ingresa el valor de b:</label>
+                    </td>
+                    <td>
+                        <input name="b" required="required" step="0.000001" type="number" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="c">Ingresa el valor de c:</label>
+                    </td>
+                    <td>
+                        <input name="c" required="required" step="0.000001" type="number" />
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td colspan="2" rowspan="1">
+                        <input value="Procesar" type="button" onclick="algoritmo();" />
+                        <input type="reset" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="discriminante">Valor de discriminante:</label>
+                    </td>
+                    <td>
+                        <input name="discriminante" step="0.000001" type="number" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="x1">Valor de x1:</label>
+                    </td>
+                    <td>
+                        <input name="x1" step="0.000001" type="number" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="x2">Valor de x2:</label>
+                    </td>
+                    <td>
+                        <input name="x2" step="0.000001" type="number" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+ </body>    
+<script src="./js.js"></script>
+</html>
